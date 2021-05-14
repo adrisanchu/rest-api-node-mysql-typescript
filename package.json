@@ -4,7 +4,8 @@
   "description": "A REST API using Node.JS, MySQL and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/app.js"
   },
   "keywords": [
     "REST-API",
